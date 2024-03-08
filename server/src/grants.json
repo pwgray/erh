@@ -1,0 +1,1082 @@
+[
+  {
+    "role": "readOnly",
+    "resource": "User",
+    "action": "read:own",
+    "attributes": "*"
+  },
+  {
+    "role": "user",
+    "resource": "User",
+    "action": "read:own",
+    "attributes": "*"
+  },
+  {
+    "role": "techAdmin",
+    "resource": "User",
+    "action": "read:own",
+    "attributes": "*"
+  },
+  {
+    "role": "admin",
+    "resource": "User",
+    "action": "read:own",
+    "attributes": "*"
+  },
+  {
+    "role": "readOnly",
+    "resource": "User",
+    "action": "create:any",
+    "attributes": "*"
+  },
+  {
+    "role": "user",
+    "resource": "User",
+    "action": "create:any",
+    "attributes": "*"
+  },
+  {
+    "role": "techAdmin",
+    "resource": "User",
+    "action": "create:any",
+    "attributes": "*"
+  },
+  {
+    "role": "admin",
+    "resource": "User",
+    "action": "create:any",
+    "attributes": "*"
+  },
+  {
+    "role": "readOnly",
+    "resource": "User",
+    "action": "update:any",
+    "attributes": "*"
+  },
+  {
+    "role": "user",
+    "resource": "User",
+    "action": "update:any",
+    "attributes": "*"
+  },
+  {
+    "role": "techAdmin",
+    "resource": "User",
+    "action": "update:any",
+    "attributes": "*"
+  },
+  {
+    "role": "admin",
+    "resource": "User",
+    "action": "update:any",
+    "attributes": "*"
+  },
+  {
+    "role": "readOnly",
+    "resource": "User",
+    "action": "delete:any",
+    "attributes": "*"
+  },
+  {
+    "role": "user",
+    "resource": "User",
+    "action": "delete:any",
+    "attributes": "*"
+  },
+  {
+    "role": "techAdmin",
+    "resource": "User",
+    "action": "delete:any",
+    "attributes": "*"
+  },
+  {
+    "role": "admin",
+    "resource": "User",
+    "action": "delete:any",
+    "attributes": "*"
+  },
+  {
+    "role": "readOnly",
+    "resource": "User",
+    "action": "read:any",
+    "attributes": "*"
+  },
+  {
+    "role": "user",
+    "resource": "User",
+    "action": "read:any",
+    "attributes": "*"
+  },
+  {
+    "role": "techAdmin",
+    "resource": "User",
+    "action": "read:any",
+    "attributes": "*"
+  },
+  {
+    "role": "admin",
+    "resource": "User",
+    "action": "read:any",
+    "attributes": "*"
+  },
+  {
+    "role": "readOnly",
+    "resource": "Erh",
+    "action": "read:own",
+    "attributes": "*"
+  },
+  {
+    "role": "user",
+    "resource": "Erh",
+    "action": "read:own",
+    "attributes": "*"
+  },
+  {
+    "role": "techAdmin",
+    "resource": "Erh",
+    "action": "read:own",
+    "attributes": "*"
+  },
+  {
+    "role": "admin",
+    "resource": "Erh",
+    "action": "read:own",
+    "attributes": "*"
+  },
+  {
+    "role": "readOnly",
+    "resource": "Erh",
+    "action": "create:any",
+    "attributes": "*"
+  },
+  {
+    "role": "user",
+    "resource": "Erh",
+    "action": "create:any",
+    "attributes": "*"
+  },
+  {
+    "role": "techAdmin",
+    "resource": "Erh",
+    "action": "create:any",
+    "attributes": "*"
+  },
+  {
+    "role": "admin",
+    "resource": "Erh",
+    "action": "create:any",
+    "attributes": "*"
+  },
+  {
+    "role": "readOnly",
+    "resource": "Erh",
+    "action": "update:any",
+    "attributes": "*"
+  },
+  {
+    "role": "user",
+    "resource": "Erh",
+    "action": "update:any",
+    "attributes": "*"
+  },
+  {
+    "role": "techAdmin",
+    "resource": "Erh",
+    "action": "update:any",
+    "attributes": "*"
+  },
+  {
+    "role": "admin",
+    "resource": "Erh",
+    "action": "update:any",
+    "attributes": "*"
+  },
+  {
+    "role": "readOnly",
+    "resource": "Erh",
+    "action": "delete:any",
+    "attributes": "*"
+  },
+  {
+    "role": "user",
+    "resource": "Erh",
+    "action": "delete:any",
+    "attributes": "*"
+  },
+  {
+    "role": "techAdmin",
+    "resource": "Erh",
+    "action": "delete:any",
+    "attributes": "*"
+  },
+  {
+    "role": "admin",
+    "resource": "Erh",
+    "action": "delete:any",
+    "attributes": "*"
+  },
+  {
+    "role": "readOnly",
+    "resource": "Erh",
+    "action": "read:any",
+    "attributes": "*"
+  },
+  {
+    "role": "user",
+    "resource": "Erh",
+    "action": "read:any",
+    "attributes": "*"
+  },
+  {
+    "role": "techAdmin",
+    "resource": "Erh",
+    "action": "read:any",
+    "attributes": "*"
+  },
+  {
+    "role": "admin",
+    "resource": "Erh",
+    "action": "read:any",
+    "attributes": "*"
+  },
+  {
+    "role": "readOnly",
+    "resource": "Lookup",
+    "action": "read:own",
+    "attributes": "*"
+  },
+  {
+    "role": "user",
+    "resource": "Lookup",
+    "action": "read:own",
+    "attributes": "*"
+  },
+  {
+    "role": "techAdmin",
+    "resource": "Lookup",
+    "action": "read:own",
+    "attributes": "*"
+  },
+  {
+    "role": "admin",
+    "resource": "Lookup",
+    "action": "read:own",
+    "attributes": "*"
+  },
+  {
+    "role": "readOnly",
+    "resource": "Lookup",
+    "action": "create:any",
+    "attributes": "*"
+  },
+  {
+    "role": "user",
+    "resource": "Lookup",
+    "action": "create:any",
+    "attributes": "*"
+  },
+  {
+    "role": "techAdmin",
+    "resource": "Lookup",
+    "action": "create:any",
+    "attributes": "*"
+  },
+  {
+    "role": "admin",
+    "resource": "Lookup",
+    "action": "create:any",
+    "attributes": "*"
+  },
+  {
+    "role": "readOnly",
+    "resource": "Lookup",
+    "action": "update:any",
+    "attributes": "*"
+  },
+  {
+    "role": "user",
+    "resource": "Lookup",
+    "action": "update:any",
+    "attributes": "*"
+  },
+  {
+    "role": "techAdmin",
+    "resource": "Lookup",
+    "action": "update:any",
+    "attributes": "*"
+  },
+  {
+    "role": "admin",
+    "resource": "Lookup",
+    "action": "update:any",
+    "attributes": "*"
+  },
+  {
+    "role": "readOnly",
+    "resource": "Lookup",
+    "action": "delete:any",
+    "attributes": "*"
+  },
+  {
+    "role": "user",
+    "resource": "Lookup",
+    "action": "delete:any",
+    "attributes": "*"
+  },
+  {
+    "role": "techAdmin",
+    "resource": "Lookup",
+    "action": "delete:any",
+    "attributes": "*"
+  },
+  {
+    "role": "admin",
+    "resource": "Lookup",
+    "action": "delete:any",
+    "attributes": "*"
+  },
+  {
+    "role": "readOnly",
+    "resource": "Lookup",
+    "action": "read:any",
+    "attributes": "*"
+  },
+  {
+    "role": "user",
+    "resource": "Lookup",
+    "action": "read:any",
+    "attributes": "*"
+  },
+  {
+    "role": "techAdmin",
+    "resource": "Lookup",
+    "action": "read:any",
+    "attributes": "*"
+  },
+  {
+    "role": "admin",
+    "resource": "Lookup",
+    "action": "read:any",
+    "attributes": "*"
+  },
+  {
+    "role": "readOnly",
+    "resource": "Application",
+    "action": "read:own",
+    "attributes": "*"
+  },
+  {
+    "role": "user",
+    "resource": "Application",
+    "action": "read:own",
+    "attributes": "*"
+  },
+  {
+    "role": "techAdmin",
+    "resource": "Application",
+    "action": "read:own",
+    "attributes": "*"
+  },
+  {
+    "role": "admin",
+    "resource": "Application",
+    "action": "read:own",
+    "attributes": "*"
+  },
+  {
+    "role": "readOnly",
+    "resource": "Application",
+    "action": "create:any",
+    "attributes": "*"
+  },
+  {
+    "role": "user",
+    "resource": "Application",
+    "action": "create:any",
+    "attributes": "*"
+  },
+  {
+    "role": "techAdmin",
+    "resource": "Application",
+    "action": "create:any",
+    "attributes": "*"
+  },
+  {
+    "role": "admin",
+    "resource": "Application",
+    "action": "create:any",
+    "attributes": "*"
+  },
+  {
+    "role": "readOnly",
+    "resource": "Application",
+    "action": "update:any",
+    "attributes": "*"
+  },
+  {
+    "role": "user",
+    "resource": "Application",
+    "action": "update:any",
+    "attributes": "*"
+  },
+  {
+    "role": "techAdmin",
+    "resource": "Application",
+    "action": "update:any",
+    "attributes": "*"
+  },
+  {
+    "role": "admin",
+    "resource": "Application",
+    "action": "update:any",
+    "attributes": "*"
+  },
+  {
+    "role": "readOnly",
+    "resource": "Application",
+    "action": "delete:any",
+    "attributes": "*"
+  },
+  {
+    "role": "user",
+    "resource": "Application",
+    "action": "delete:any",
+    "attributes": "*"
+  },
+  {
+    "role": "techAdmin",
+    "resource": "Application",
+    "action": "delete:any",
+    "attributes": "*"
+  },
+  {
+    "role": "admin",
+    "resource": "Application",
+    "action": "delete:any",
+    "attributes": "*"
+  },
+  {
+    "role": "readOnly",
+    "resource": "Application",
+    "action": "read:any",
+    "attributes": "*"
+  },
+  {
+    "role": "user",
+    "resource": "Application",
+    "action": "read:any",
+    "attributes": "*"
+  },
+  {
+    "role": "techAdmin",
+    "resource": "Application",
+    "action": "read:any",
+    "attributes": "*"
+  },
+  {
+    "role": "admin",
+    "resource": "Application",
+    "action": "read:any",
+    "attributes": "*"
+  },
+  {
+    "role": "readOnly",
+    "resource": "Version",
+    "action": "read:own",
+    "attributes": "*"
+  },
+  {
+    "role": "user",
+    "resource": "Version",
+    "action": "read:own",
+    "attributes": "*"
+  },
+  {
+    "role": "techAdmin",
+    "resource": "Version",
+    "action": "read:own",
+    "attributes": "*"
+  },
+  {
+    "role": "admin",
+    "resource": "Version",
+    "action": "read:own",
+    "attributes": "*"
+  },
+  {
+    "role": "readOnly",
+    "resource": "Version",
+    "action": "create:any",
+    "attributes": "*"
+  },
+  {
+    "role": "user",
+    "resource": "Version",
+    "action": "create:any",
+    "attributes": "*"
+  },
+  {
+    "role": "techAdmin",
+    "resource": "Version",
+    "action": "create:any",
+    "attributes": "*"
+  },
+  {
+    "role": "admin",
+    "resource": "Version",
+    "action": "create:any",
+    "attributes": "*"
+  },
+  {
+    "role": "readOnly",
+    "resource": "Version",
+    "action": "update:any",
+    "attributes": "*"
+  },
+  {
+    "role": "user",
+    "resource": "Version",
+    "action": "update:any",
+    "attributes": "*"
+  },
+  {
+    "role": "techAdmin",
+    "resource": "Version",
+    "action": "update:any",
+    "attributes": "*"
+  },
+  {
+    "role": "admin",
+    "resource": "Version",
+    "action": "update:any",
+    "attributes": "*"
+  },
+  {
+    "role": "readOnly",
+    "resource": "Version",
+    "action": "delete:any",
+    "attributes": "*"
+  },
+  {
+    "role": "user",
+    "resource": "Version",
+    "action": "delete:any",
+    "attributes": "*"
+  },
+  {
+    "role": "techAdmin",
+    "resource": "Version",
+    "action": "delete:any",
+    "attributes": "*"
+  },
+  {
+    "role": "admin",
+    "resource": "Version",
+    "action": "delete:any",
+    "attributes": "*"
+  },
+  {
+    "role": "readOnly",
+    "resource": "Version",
+    "action": "read:any",
+    "attributes": "*"
+  },
+  {
+    "role": "user",
+    "resource": "Version",
+    "action": "read:any",
+    "attributes": "*"
+  },
+  {
+    "role": "techAdmin",
+    "resource": "Version",
+    "action": "read:any",
+    "attributes": "*"
+  },
+  {
+    "role": "admin",
+    "resource": "Version",
+    "action": "read:any",
+    "attributes": "*"
+  },
+  {
+    "role": "readOnly",
+    "resource": "ApplicationItem",
+    "action": "read:own",
+    "attributes": "*"
+  },
+  {
+    "role": "user",
+    "resource": "ApplicationItem",
+    "action": "read:own",
+    "attributes": "*"
+  },
+  {
+    "role": "techAdmin",
+    "resource": "ApplicationItem",
+    "action": "read:own",
+    "attributes": "*"
+  },
+  {
+    "role": "admin",
+    "resource": "ApplicationItem",
+    "action": "read:own",
+    "attributes": "*"
+  },
+  {
+    "role": "readOnly",
+    "resource": "ApplicationItem",
+    "action": "create:any",
+    "attributes": "*"
+  },
+  {
+    "role": "user",
+    "resource": "ApplicationItem",
+    "action": "create:any",
+    "attributes": "*"
+  },
+  {
+    "role": "techAdmin",
+    "resource": "ApplicationItem",
+    "action": "create:any",
+    "attributes": "*"
+  },
+  {
+    "role": "admin",
+    "resource": "ApplicationItem",
+    "action": "create:any",
+    "attributes": "*"
+  },
+  {
+    "role": "readOnly",
+    "resource": "ApplicationItem",
+    "action": "update:any",
+    "attributes": "*"
+  },
+  {
+    "role": "user",
+    "resource": "ApplicationItem",
+    "action": "update:any",
+    "attributes": "*"
+  },
+  {
+    "role": "techAdmin",
+    "resource": "ApplicationItem",
+    "action": "update:any",
+    "attributes": "*"
+  },
+  {
+    "role": "admin",
+    "resource": "ApplicationItem",
+    "action": "update:any",
+    "attributes": "*"
+  },
+  {
+    "role": "readOnly",
+    "resource": "ApplicationItem",
+    "action": "delete:any",
+    "attributes": "*"
+  },
+  {
+    "role": "user",
+    "resource": "ApplicationItem",
+    "action": "delete:any",
+    "attributes": "*"
+  },
+  {
+    "role": "techAdmin",
+    "resource": "ApplicationItem",
+    "action": "delete:any",
+    "attributes": "*"
+  },
+  {
+    "role": "admin",
+    "resource": "ApplicationItem",
+    "action": "delete:any",
+    "attributes": "*"
+  },
+  {
+    "role": "readOnly",
+    "resource": "ApplicationItem",
+    "action": "read:any",
+    "attributes": "*"
+  },
+  {
+    "role": "user",
+    "resource": "ApplicationItem",
+    "action": "read:any",
+    "attributes": "*"
+  },
+  {
+    "role": "techAdmin",
+    "resource": "ApplicationItem",
+    "action": "read:any",
+    "attributes": "*"
+  },
+  {
+    "role": "admin",
+    "resource": "ApplicationItem",
+    "action": "read:any",
+    "attributes": "*"
+  },
+  {
+    "role": "readOnly",
+    "resource": "DbQueryConnection",
+    "action": "read:own",
+    "attributes": "*"
+  },
+  {
+    "role": "user",
+    "resource": "DbQueryConnection",
+    "action": "read:own",
+    "attributes": "*"
+  },
+  {
+    "role": "techAdmin",
+    "resource": "DbQueryConnection",
+    "action": "read:own",
+    "attributes": "*"
+  },
+  {
+    "role": "admin",
+    "resource": "DbQueryConnection",
+    "action": "read:own",
+    "attributes": "*"
+  },
+  {
+    "role": "readOnly",
+    "resource": "DbQueryConnection",
+    "action": "create:any",
+    "attributes": "*"
+  },
+  {
+    "role": "user",
+    "resource": "DbQueryConnection",
+    "action": "create:any",
+    "attributes": "*"
+  },
+  {
+    "role": "techAdmin",
+    "resource": "DbQueryConnection",
+    "action": "create:any",
+    "attributes": "*"
+  },
+  {
+    "role": "admin",
+    "resource": "DbQueryConnection",
+    "action": "create:any",
+    "attributes": "*"
+  },
+  {
+    "role": "readOnly",
+    "resource": "DbQueryConnection",
+    "action": "update:any",
+    "attributes": "*"
+  },
+  {
+    "role": "user",
+    "resource": "DbQueryConnection",
+    "action": "update:any",
+    "attributes": "*"
+  },
+  {
+    "role": "techAdmin",
+    "resource": "DbQueryConnection",
+    "action": "update:any",
+    "attributes": "*"
+  },
+  {
+    "role": "admin",
+    "resource": "DbQueryConnection",
+    "action": "update:any",
+    "attributes": "*"
+  },
+  {
+    "role": "readOnly",
+    "resource": "DbQueryConnection",
+    "action": "delete:any",
+    "attributes": "*"
+  },
+  {
+    "role": "user",
+    "resource": "DbQueryConnection",
+    "action": "delete:any",
+    "attributes": "*"
+  },
+  {
+    "role": "techAdmin",
+    "resource": "DbQueryConnection",
+    "action": "delete:any",
+    "attributes": "*"
+  },
+  {
+    "role": "admin",
+    "resource": "DbQueryConnection",
+    "action": "delete:any",
+    "attributes": "*"
+  },
+  {
+    "role": "readOnly",
+    "resource": "DbQueryConnection",
+    "action": "read:any",
+    "attributes": "*"
+  },
+  {
+    "role": "user",
+    "resource": "DbQueryConnection",
+    "action": "read:any",
+    "attributes": "*"
+  },
+  {
+    "role": "techAdmin",
+    "resource": "DbQueryConnection",
+    "action": "read:any",
+    "attributes": "*"
+  },
+  {
+    "role": "admin",
+    "resource": "DbQueryConnection",
+    "action": "read:any",
+    "attributes": "*"
+  },
+  {
+    "role": "readOnly",
+    "resource": "MappingLog",
+    "action": "read:own",
+    "attributes": "*"
+  },
+  {
+    "role": "user",
+    "resource": "MappingLog",
+    "action": "read:own",
+    "attributes": "*"
+  },
+  {
+    "role": "techAdmin",
+    "resource": "MappingLog",
+    "action": "read:own",
+    "attributes": "*"
+  },
+  {
+    "role": "admin",
+    "resource": "MappingLog",
+    "action": "read:own",
+    "attributes": "*"
+  },
+  {
+    "role": "readOnly",
+    "resource": "MappingLog",
+    "action": "create:any",
+    "attributes": "*"
+  },
+  {
+    "role": "user",
+    "resource": "MappingLog",
+    "action": "create:any",
+    "attributes": "*"
+  },
+  {
+    "role": "techAdmin",
+    "resource": "MappingLog",
+    "action": "create:any",
+    "attributes": "*"
+  },
+  {
+    "role": "admin",
+    "resource": "MappingLog",
+    "action": "create:any",
+    "attributes": "*"
+  },
+  {
+    "role": "readOnly",
+    "resource": "MappingLog",
+    "action": "update:any",
+    "attributes": "*"
+  },
+  {
+    "role": "user",
+    "resource": "MappingLog",
+    "action": "update:any",
+    "attributes": "*"
+  },
+  {
+    "role": "techAdmin",
+    "resource": "MappingLog",
+    "action": "update:any",
+    "attributes": "*"
+  },
+  {
+    "role": "admin",
+    "resource": "MappingLog",
+    "action": "update:any",
+    "attributes": "*"
+  },
+  {
+    "role": "readOnly",
+    "resource": "MappingLog",
+    "action": "delete:any",
+    "attributes": "*"
+  },
+  {
+    "role": "user",
+    "resource": "MappingLog",
+    "action": "delete:any",
+    "attributes": "*"
+  },
+  {
+    "role": "techAdmin",
+    "resource": "MappingLog",
+    "action": "delete:any",
+    "attributes": "*"
+  },
+  {
+    "role": "admin",
+    "resource": "MappingLog",
+    "action": "delete:any",
+    "attributes": "*"
+  },
+  {
+    "role": "readOnly",
+    "resource": "MappingLog",
+    "action": "read:any",
+    "attributes": "*"
+  },
+  {
+    "role": "user",
+    "resource": "MappingLog",
+    "action": "read:any",
+    "attributes": "*"
+  },
+  {
+    "role": "techAdmin",
+    "resource": "MappingLog",
+    "action": "read:any",
+    "attributes": "*"
+  },
+  {
+    "role": "admin",
+    "resource": "MappingLog",
+    "action": "read:any",
+    "attributes": "*"
+  },
+  {
+    "role": "readOnly",
+    "resource": "MappingVariance",
+    "action": "read:own",
+    "attributes": "*"
+  },
+  {
+    "role": "user",
+    "resource": "MappingVariance",
+    "action": "read:own",
+    "attributes": "*"
+  },
+  {
+    "role": "techAdmin",
+    "resource": "MappingVariance",
+    "action": "read:own",
+    "attributes": "*"
+  },
+  {
+    "role": "admin",
+    "resource": "MappingVariance",
+    "action": "read:own",
+    "attributes": "*"
+  },
+  {
+    "role": "readOnly",
+    "resource": "MappingVariance",
+    "action": "create:any",
+    "attributes": "*"
+  },
+  {
+    "role": "user",
+    "resource": "MappingVariance",
+    "action": "create:any",
+    "attributes": "*"
+  },
+  {
+    "role": "techAdmin",
+    "resource": "MappingVariance",
+    "action": "create:any",
+    "attributes": "*"
+  },
+  {
+    "role": "admin",
+    "resource": "MappingVariance",
+    "action": "create:any",
+    "attributes": "*"
+  },
+  {
+    "role": "readOnly",
+    "resource": "MappingVariance",
+    "action": "update:any",
+    "attributes": "*"
+  },
+  {
+    "role": "user",
+    "resource": "MappingVariance",
+    "action": "update:any",
+    "attributes": "*"
+  },
+  {
+    "role": "techAdmin",
+    "resource": "MappingVariance",
+    "action": "update:any",
+    "attributes": "*"
+  },
+  {
+    "role": "admin",
+    "resource": "MappingVariance",
+    "action": "update:any",
+    "attributes": "*"
+  },
+  {
+    "role": "readOnly",
+    "resource": "MappingVariance",
+    "action": "delete:any",
+    "attributes": "*"
+  },
+  {
+    "role": "user",
+    "resource": "MappingVariance",
+    "action": "delete:any",
+    "attributes": "*"
+  },
+  {
+    "role": "techAdmin",
+    "resource": "MappingVariance",
+    "action": "delete:any",
+    "attributes": "*"
+  },
+  {
+    "role": "admin",
+    "resource": "MappingVariance",
+    "action": "delete:any",
+    "attributes": "*"
+  },
+  {
+    "role": "readOnly",
+    "resource": "MappingVariance",
+    "action": "read:any",
+    "attributes": "*"
+  },
+  {
+    "role": "user",
+    "resource": "MappingVariance",
+    "action": "read:any",
+    "attributes": "*"
+  },
+  {
+    "role": "techAdmin",
+    "resource": "MappingVariance",
+    "action": "read:any",
+    "attributes": "*"
+  },
+  {
+    "role": "admin",
+    "resource": "MappingVariance",
+    "action": "read:any",
+    "attributes": "*"
+  }
+]

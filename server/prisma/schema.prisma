@@ -1,0 +1,130 @@
+datasource db {
+  provider = "sqlserver"
+  url      = env("DB_URL")
+}
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+model User {
+  createdAt DateTime @default(now())
+  firstName String?
+  id        String   @id @default(cuid())
+  lastName  String?
+  password  String
+  roles     Json
+  updatedAt DateTime @updatedAt
+  username  String   @unique
+}
+
+model Erh {
+  createdAt       DateTime @default(now())
+  id              String   @id @default(cuid())
+  isActive        Boolean
+  isDeleted       Boolean?
+  level1Id        String?
+  level1VersionId String?
+  name            String   @unique
+  parentId        String?
+  parentVersionId String?
+  updatedAt       DateTime @updatedAt
+  versionId       String?
+}
+
+model Lookup {
+  altValue1                 String?
+  altValue2                 String?
+  category                  String?
+  context                   String?
+  createdAt                 DateTime  @default(now())
+  description               String?
+  endDate                   DateTime?
+  id                        String    @id @default(cuid())
+  isActive                  Boolean?
+  isDeleted                 Boolean?
+  isEditableByTechAdminOnly Boolean?
+  isViewableByTechAdminOnly Boolean?
+  parentId                  String?
+  sortOrder                 String?
+  startDate                 DateTime?
+  updatedAt                 DateTime  @updatedAt
+  value                     String?
+}
+
+model Application {
+  ait                 String?
+  createdAt           DateTime @default(now())
+  description         String?
+  id                  String   @id @default(cuid())
+  name                String?
+  parentApplicationId String?
+  updatedAt           DateTime @updatedAt
+}
+
+model Version {
+  clonedFromId String?
+  comment      String?
+  createdAt    DateTime  @default(now())
+  goActiveDate DateTime?
+  id           String    @id @default(cuid())
+  isActive     Boolean
+  isDeleted    Boolean
+  name         String    @unique
+  sortOrder    Int?
+  statusId     String?
+  updatedAt    DateTime  @updatedAt
+  wasSynchRun  Boolean?
+}
+
+model ApplicationItem {
+  applicationId        String?
+  createdAt            DateTime @default(now())
+  id                   String   @id @default(cuid())
+  isActive             Boolean?
+  isDeleted            Boolean?
+  itemId               String?
+  name                 String?
+  parentId             String?
+  sourceSystemId       String?
+  sourceSystemParentId String?
+  updatedAt            DateTime @updatedAt
+  versionId            String?
+}
+
+model DbQueryConnection {
+  createdAt          DateTime @default(now())
+  dbConnectionString String?
+  dbProvider         String?
+  id                 String   @id @default(cuid())
+  queryString        String?
+  updatedAt          DateTime @updatedAt
+}
+
+model MappingLog {
+  applicationId                  String?  @unique
+  applicationMappedRecordCount   Int?
+  applicationRecordCount         Int?
+  applicationUnmappedRecordCount Int?
+  createdAt                      DateTime @default(now())
+  deletedMappingsRecordCount     String?
+  id                             String   @id @default(cuid())
+  mappedRecordCount              Int?
+  newMappingRecordCount          Int?
+  recordCount                    Int?
+  statusId                       String?
+  unmappedRecordCount            Int?
+  updatedAt                      DateTime @updatedAt
+  versionId                      String
+}
+
+model MappingVariance {
+  applicationErhId String?
+  createdAt        DateTime @default(now())
+  erhId            String?
+  id               String   @id @default(cuid())
+  mappingLogId     String?
+  updatedAt        DateTime @updatedAt
+  varianceTypeId   String?
+  versionId        String?
+}
